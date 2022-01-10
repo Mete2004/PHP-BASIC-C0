@@ -4,14 +4,12 @@
     
 <?php
  
- $film1 = "<li>Spiderman";
- echo ($film1);
- 
- $film2 = "<li>Batman";
- echo ($film2);
- 
- $film3 = "<li>The joker";
- echo ($film3);
+ $film=array("spiderman","batman","the joker");
+ echo "<ul>";
+ echo "</ul>";
+ echo " <li>" . $film[0] . "</li>";
+ echo " <li>" . $film[1] . "</li>";
+ echo " <li>" . $film[2] . "</li>";
  ?>
  
 

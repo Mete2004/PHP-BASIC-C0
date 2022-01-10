@@ -6,7 +6,8 @@
 
 <?php
 $myHeroes=array("dad");
-array_push($myHeroes,"spiderman","ironman");
+$myHeroes[3] = 'superman';
+array_push($myHeroes,"spiderman","ironman",);
 print_r($myHeroes);
 ?>
 
