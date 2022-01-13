@@ -8,10 +8,14 @@
 $getallen = array("3","46","78657","47","676","5345","21");
 print_r($getallen);
 
-asort($getallen);
+$hoog_laag = $getallen;
+
+asort($hoog_laag);
 print_r($getallen);
 
-arsort($getallen);
+$laag_hoog = $getallen;
+
+arsort($laag_hoog);
 print_r($getallen);
 ?>
 
