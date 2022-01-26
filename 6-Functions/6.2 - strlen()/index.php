@@ -1,8 +1,8 @@
 <?php
 function mijnNaamIsGroot(){
-    $voornaam = " metekaan ";
-    $achternaam = " sariguney ";
-    $helemaal = " Mijn naam is " . $voornaam . $achternaam;
+    $voornaam = " METEKAAN ";
+    $achternaam = " SARIGUNEY ";
+    $helemaal = " MIJN NAAM IS " . $voornaam . $achternaam;
     strtoupper($voornaam . $achternaam);
     echo $helemaal;
 }
